@@ -92,8 +92,6 @@ namespace Project_Alpha.Seller
             gameimages = brs.ReadBytes((int)stream.Length);
 
 
-
-
             if (radioButton1.Checked) { platform = "PC"; }
             else if (radioButton2.Checked) { platform = "PS4"; }
             else if (radioButton3.Checked) { platform = "XBOX"; }
